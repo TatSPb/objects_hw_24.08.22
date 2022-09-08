@@ -18,10 +18,3 @@ public class Main {
         System.out.println("Книга 3  - новый год издания: " + newBook3.getName() + " " + newBook3.getAuthor() + " " + newBook3.getPublicationYear());
     }
 }
-        //Person sarah = new Person ("Sarah",30); // вызов конструктора. Возраст (int age) БЕЗ КАВЫЧЕК!!! Конструктор - это метод, который создает объект
-       // System.out.println("sarah.name = " + sarah.getName());
-        //System.out.println("sarah.age = " + sarah.getAge());
-        //sarah.setAge(31);
-        //System.out.println("sarah.getAge() = " + sarah.getAge());
-
-       // Person john = new Person("John", 13);
