@@ -1,15 +1,6 @@
 public class Author {
 
     private String name;
-
-    @Override
-    public String toString() {
-        return "Автор {" +
-                "name='" + name + '\'' +
-                ", surname='" + surname + '\'' +
-                '}';
-    }
-
     private String surname;
 
     public Author(String name, String surname) {
@@ -23,5 +14,11 @@ public class Author {
     public String getSurname() {
         return surname;
     }
-
+    @Override
+    public String toString() {
+        return "Автор {" +
+                "name='" + name + '\'' +
+                ", surname='" + surname + '\'' +
+                '}';
+    }
 }
